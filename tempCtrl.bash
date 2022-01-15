@@ -1,11 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/sh
 
 temp=$(vcgencmd measure_temp)
-
-# extract temp
-
-echo $num
-
-
-
-
+echo $temp
